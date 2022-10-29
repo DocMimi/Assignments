@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+  height: 100%;
+  width: 100%;
+  background-color:black;
+  color:white;
+  font-family:'Roboto'sans-serif;
+}
+ 
+body{
+  width:80%;
+  margin:auto;
+  margin-top:30px;
+  line-height:25px;
+} 
+
+.nav-bar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+}
+
+.nav-link{
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight:bold;
+}
+.logo{
+  width:50px;
+  
+}
+
+.name{
+  display:flex;
+  flex-direction:column;
+  font-size:30px;
+}
+ .mine{
+    width:200px;
+   height:200px;
+   border:10px solid silver;
+   border-radius:50%;
+   
+ }
+
+.span{
+  color: #009344;
+}
+.gem{
+  width:100%;
+  height:50px;
+}
