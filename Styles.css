@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+  height: 100%;
+  width: 80%;
+}
+
+body {
+  background:url('./image z.jpg');
+  background-size:cover;
+  color: floralwhite;
+  width:80%;
+  margin:auto;
+  margin-top:30px;
+  line-height:25px;
+  font-family:'Roboto', sans-serif;
+  font-weight:bold;
+} 
+.registration-form{
+  position:absolute;
+  width:400px;
+}
+
+.registration-form h1{
+  font-size:30px;
+  text-align:center;
+  text-transform: uppercase;
+  margin:35px 0;
+  color:white
+  
+}
+.
