@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width=1.0">"
+  <title>Registration form</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="registration-form">
+    <h1>Registration Form</h1>
+    <form action="Login.html" method="post">
+      <p class="fname">First Name:</p>
+      <input type="text" name="first name" placeholder="First name">
+      <p>Last Name:</p>
+      <input type="text" name="last name" placeholder="Last name">
+      <p>Email:</p>
+      <input type="email" name="Email" placeholder="Email">
+      <p>Phone number:</p>
+      <input type="number" name="phone number" placeholder="Phone number">
+      <fieldset data-role="controlgroup">
+        <legend>Choose your gender:</legend>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+      </fieldset>
+      <p>Date of birth:</p>
+      <input type="date" name="date" placeholder="Date">
+      <p><label for="colorpicker">Select your favourite
+          color:</label></p>
+      <input type="color" id="colorpicker" value="#0000ff">
+      <p><button type="submit">Register</button></p>
+    </form>
+    <p>If you already have an account, access your page by clicking <a target_blank href="Login.html">LOGIN.</a></p>
+</body>
+
+</html>
